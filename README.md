@@ -1,4 +1,4 @@
-# corenlp-docker Version 3.7
+# corenlp-docker Version 3.7 with Oracle's version of Java
 
 Dockerfile for Stanford CoreNLP Server
 ---------
