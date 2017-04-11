@@ -16,6 +16,3 @@ docker run -p 9050:9050 --rm mooreap/corenlp -port 9050
 If you want to run on port 9050 with timeout of 50000 milliseconds
 
 docker run -p 9050:9050 --rm mooreap/corenlp -port 9050 -timeout 50000
-
-
-Add the -it flag if you would like to see the log output from the server.
