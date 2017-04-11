@@ -7,12 +7,15 @@ This Dockerfile builds the [Stanford CoreNLPServer](http://stanfordnlp.github.io
 
 To run:
 
-docker run -p 9000:9000 --rm -it mooreap/corenlp
+docker run -p 9000:9000 --rm mooreap/corenlp
 
 If you want it to run over a different port e.g. 9050
 
-docker run -p 9050:9050 --rm -it mooreap/corenlp -port 9050
+docker run -p 9050:9050 --rm mooreap/corenlp -port 9050
 
 If you want to run on port 9050 with timeout of 50000 milliseconds
 
-docker run -p 9050:9050 --rm -it mooreap/corenlp -port 9050 -timeout 50000
+docker run -p 9050:9050 --rm mooreap/corenlp -port 9050 -timeout 50000
+
+
+Add the -it flag if you would like to see the log output from the server.
